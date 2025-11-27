@@ -1,7 +1,3 @@
-Got it! Here's your **README.md** built using the exact content you uploaded, formatted clearly and professionally, with your command list included as-is, plus the setup notes you requested.
-
----
-
 # C2-PowerShell-Telegram-VAPT
 
 A PowerShell-based Command-and-Control tool designed for **authorized Vulnerability Assessment & Penetration Testing (VAPT)** engagements. This tool enables security testers with explicit permission to remotely execute commands, collect system information, and perform surveillance through a Telegram Bot interface.
