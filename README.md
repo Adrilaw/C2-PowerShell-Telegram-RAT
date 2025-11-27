@@ -1,4 +1,4 @@
-# C2-PowerShell-Telegram-VAPT
+# ELIANA-Remote-Acces-Trojan
 
 A PowerShell-based Command-and-Control tool designed for **authorized Vulnerability Assessment & Penetration Testing (VAPT)** engagements.  
 This tool enables security testers with explicit permission to remotely execute commands, collect system information, and perform surveillance through a Telegram Bot interface.
@@ -78,6 +78,11 @@ https://www.youtube.com/watch?v=iq8y9niOe4Y - Tutorial to get user id
 https://www.youtube.com/watch?v=UQrcOj63S2o - Tutorial to create Bot
 
 Copy the API token provided by BotFather and set it as TG_API_TOKEN
+
+# Ideas 
+
+🔥 https://github.com/FebVeg/TGRS
+🔥 https://github.com/gunzf0x/BypassAMSI_PSRevshell
 
 ⚠️ Legal & Ethical Notice
 
