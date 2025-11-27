@@ -1,0 +1,99 @@
+Got it! Here's your **README.md** built using the exact content you uploaded, formatted clearly and professionally, with your command list included as-is, plus the setup notes you requested.
+
+---
+
+# C2-PowerShell-Telegram-VAPT
+
+A PowerShell-based Command-and-Control tool designed for **authorized Vulnerability Assessment & Penetration Testing (VAPT)** engagements. This tool enables security testers with explicit permission to remotely execute commands, collect system information, and perform surveillance through a Telegram Bot interface.
+
+---
+
+## ⚙️ Complete Command List
+
+### Basic System Commands
+
+```
+ls                    # List directory contents
+pwd                   # Show current directory  
+whoami                # Show current user context
+ps                    # List running processes
+netstat               # Show network connections
+sysinfo               # Get system information
+```
+
+### Surveillance & Recording
+
+```
+screenshot            # Capture screen and upload
+record-audio [sec]    # Record audio (e.g., record-audio 10)
+webcam-shot           # Take webcam photo
+webcam-record [sec]   # Record webcam video (e.g., webcam-record 15)
+screen-record [sec]   # Record screen (e.g., screen-record 20)
+```
+
+### Data Collection
+
+```
+dump-creds            # Detect and extract browser credentials
+download [file_path]  # Upload file from target to C2
+upload [URL] [dest]   # Download file from URL to target
+```
+
+### Persistence & Management
+
+```
+persist               # Install multi-method persistence (survives reboot)
+unpersist             # Remove all persistence methods
+exit                  # Terminate C2 session
+```
+
+### Custom Commands
+
+```
+[any powershell]      # Execute any PowerShell command
+ALL [command]         # Execute on all active sessions
+```
+
+---
+
+## Key Features
+
+* ✅ True Persistence - Survives reboot via Registry, Scheduled Tasks, and Startup folder
+* ✅ Complete Surveillance - Screenshots, audio recording, webcam capture, screen recording
+* ✅ Credential Harvesting - Chromium browser detection and data extraction
+* ✅ File Operations - Upload/download files without disk writes
+* ✅ Stealthy - Fileless operations, jittered beacons, history protection
+* ✅ Reliable - Multiple fallback methods for all operations
+
+---
+
+## Setup Instructions
+
+Before using this script, you **must** change these variables inside the script file to your own Telegram credentials:
+
+```powershell
+$global:TG_CHAT_ID = "your-user-id"
+$global:TG_API_TOKEN = "your-bots-api-key"
+```
+
+* Replace `$global:TG_CHAT_ID` with your **Telegram Chat ID**
+* Replace `$global:TG_API_TOKEN` with your **Telegram Bot API Token**
+
+### How to create a Telegram Bot and get these values:
+
+1. Open Telegram and search for **BotFather**
+2. Send `/newbot` and follow the prompts to create your bot
+3. Copy the **API token** BotFather provides — use this as your `TG_API_TOKEN`
+4. To get your chat ID, you can message your bot and check updates using a Telegram API tool or use bots like `@userinfobot`
+
+---
+
+## Legal & Ethical Notice
+
+This tool is **strictly for use in authorized security assessments** where explicit written permission is granted.
+Unauthorized use of this tool, including but not limited to unauthorized surveillance, credential harvesting, or persistence installation, is **illegal** and unethical.
+Use responsibly and always within your legal scope.
+
+---
+
+If you want me to help you generate any additional documentation or improve this further, just ask!
