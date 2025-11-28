@@ -25,7 +25,6 @@ This tool enables security testers with explicit permission to remotely execute 
 
 `sessionid record-audio` [sec]        # Record audio (e.g., record-audio 10)  
 
-`sessionid webcam-shot`               # Take webcam photo  
 
 # Data Collection
 `sessionid download` [file_path]      # Upload file from target to C2  
