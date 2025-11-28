@@ -25,6 +25,8 @@ This tool enables security testers with explicit permission to remotely execute 
 
 `sessionid record-audio` [sec]        # Record audio (e.g., record-audio 10)  
 
+`sessionid screen-record` [sec]       # Record screen (e.g., screen-record 10)
+
 
 # Data Collection
 `sessionid download` [file_path]      # Upload file from target to C2  
