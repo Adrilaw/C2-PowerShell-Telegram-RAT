@@ -5,6 +5,20 @@ This tool enables security testers with explicit permission to remotely execute 
 
 <img width="413" height="584" alt="Image" src="https://github.com/user-attachments/assets/dd105739-85e3-4ab4-ba3e-79b6ae55e377" />
 
+
+⚙️ Setup Instructions
+
+Before using this script, you must update the Telegram credentials in the script:
+
+$telegram_id, $api_token    = "id", "api-key" # Replace with your Telegram Chat ID # Replace with your Telegram Bot API Token 
+
+How to create a Telegram Bot and obtain credentials:
+
+🎥 https://www.youtube.com/watch?v=iq8y9niOe4Y - Tutorial to get user id
+
+🎥 https://www.youtube.com/watch?v=UQrcOj63S2o - Tutorial to create Bot
+
+
 ## ⚙️ Complete Command List
 
 # Basic System Commands
@@ -60,18 +74,6 @@ This tool enables security testers with explicit permission to remotely execute 
 
 ✅ Reliable - Multiple fallback methods for all operations
 
-
-⚙️ Setup Instructions
-
-Before using this script, you must update the Telegram credentials in the script:
-
-$telegram_id, $api_token    = "id", "api-key" # Replace with your Telegram Chat ID # Replace with your Telegram Bot API Token 
-
-How to create a Telegram Bot and obtain credentials:
-
-🎥 https://www.youtube.com/watch?v=iq8y9niOe4Y - Tutorial to get user id
-
-🎥 https://www.youtube.com/watch?v=UQrcOj63S2o - Tutorial to create Bot
 
 # ✍🏼 About Author
 
