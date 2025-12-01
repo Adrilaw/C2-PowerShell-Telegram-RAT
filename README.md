@@ -8,6 +8,99 @@ This tool enables security testers with explicit permission to remotely execute 
 
 # ⚙️ Setup Instructions for ELIANA
 
+**ELIANA** is a legal, user-controlled automation tool designed for **authorized Vulnerability Assessment & Penetration Testing (VAPT)**.  
+This tool does **NOT** perform any hidden actions — all execution requires the user’s awareness and interaction.
+
+---
+
+## 📥 1. Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Adrilaw/ELIANA-Remote-Access-Trojan
+cd ELIANA-Remote-Access-Trojan
+```
+
+---
+
+## ▶️ 2. Run the Setup Script
+
+Execute the Python setup tool:
+
+```bash
+python ERAT.py
+```
+
+The script will ask you for:
+
+- **Your Telegram User ID**
+- **Your Telegram Bot API Token**
+
+These are required so the tool can communicate with *your own bot*.
+
+---
+
+## 🤖 3. How to Get Telegram Credentials
+
+Follow these tutorials:
+
+- 🎥 Get your Telegram **User ID**  
+  https://www.youtube.com/watch?v=iq8y9niOe4Y  
+
+- 🎥 Create a **Telegram Bot** and get the API Token  
+  https://www.youtube.com/watch?v=UQrcOj63S2o  
+
+Once done, re-run `ERAT.py` and enter the values when prompted.
+
+---
+
+## 🏗️ 4. Auto-Generated Launchers
+
+After entering your Telegram ID and Bot Token,  
+`ERAT.py` will automatically generate:
+
+- **run_ELIANA.bat** – Runs the PowerShell script normally  
+- **run_ELIANA.vbs** – Runs the tool silently (user-initiated only)
+
+Both launchers execute:
+
+```
+ELIANA.ps1
+```
+
+No session ID is needed.  
+No silent installation.  
+No persistence.  
+No hidden actions.
+
+---
+
+## ⚠️ Legal Disclaimer
+
+This tool is made **EXCLUSIVELY** for:
+
+- Educational use  
+- Personal lab testing  
+- Authorized VAPT where the client has signed permission  
+
+**Any unauthorized use is illegal and strictly prohibited.**
+
+---
+
+## 📌 Notes
+
+- PowerShell must be allowed to run scripts (`ExecutionPolicy Bypass` is used)
+- Python 3.x is required
+- Telegram bot must be active for notifications to work
+
+---
+
+## ✅ Status
+
+ELIANA is currently functional for controlled and authorized environments only.
+
+
 ## ⚙️ Complete Command List
 
 # Basic System Commands
