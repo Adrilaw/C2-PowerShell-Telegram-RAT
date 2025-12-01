@@ -38,7 +38,7 @@ Replace `"your_user_id_here"` with your Telegram User ID, and `"your_api_token_h
 
 ### Step 3: Run the Script to Generate Required Files
 
-Run the script `ELIANA.py`. It will automatically create the necessary `.bat` and `.vbs` files for you.
+Run the script `python ELIANA.py`. It will automatically create the necessary `.bat` and `.vbs` files for you.
 
 ---
 
