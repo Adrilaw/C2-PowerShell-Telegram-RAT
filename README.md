@@ -5,101 +5,22 @@ This tool enables security testers with explicit permission to remotely execute 
 
 <img width="413" height="584" alt="Image" src="https://github.com/user-attachments/assets/dd105739-85e3-4ab4-ba3e-79b6ae55e377" />
 
+. Configuration
 
-# ⚙️ Setup Instructions for ELIANA
+⚙️ ELIANA-RAT Setup
 
-**ELIANA** is a legal, user-controlled automation tool designed for **authorized Vulnerability Assessment & Penetration Testing (VAPT)**.  
-This tool does **NOT** perform any hidden actions — all execution requires the user’s awareness and interaction.
+Open the PowerShell file that was uploaded (ELIANA.ps1).
 
----
+Inside the script, you will see fields like:
 
-## 📥 1. Installation
+$telegram_id  = "your_user_id_here"
+$api_token    = "your_api_token_here"
 
-Clone the repository:
+🎥 How to get your Telegram User ID:
+https://www.youtube.com/watch?v=iq8y9niOe4Y
 
-```bash
-git clone https://github.com/Adrilaw/ELIANA-Remote-Access-Trojan
-cd ELIANA-Remote-Access-Trojan
-```
-
----
-
-## ▶️ 2. Run the Setup Script
-
-Execute the Python setup tool:
-
-```bash
-python ERAT.py
-```
-
-The script will ask you for:
-
-- **Your Telegram User ID**
-- **Your Telegram Bot API Token**
-
-These are required so the tool can communicate with *your own bot*.
-
----
-
-## 🤖 3. How to Get Telegram Credentials
-
-Follow these tutorials:
-
-- 🎥 Get your Telegram **User ID**  
-  https://www.youtube.com/watch?v=iq8y9niOe4Y  
-
-- 🎥 Create a **Telegram Bot** and get the API Token  
-  https://www.youtube.com/watch?v=UQrcOj63S2o  
-
-Once done, re-run `ERAT.py` and enter the values when prompted.
-
----
-
-## 🏗️ 4. Auto-Generated Launchers
-
-After entering your Telegram ID and Bot Token,  
-`ERAT.py` will automatically generate:
-
-- **run_ELIANA.bat** – Runs the PowerShell script normally  
-- **run_ELIANA.vbs** – Runs the tool silently (user-initiated only)
-
-Both launchers execute:
-
-```
-ELIANA.ps1
-```
-
-No session ID is needed.  
-No silent installation.  
-No persistence.  
-No hidden actions.
-
----
-
-## ⚠️ Legal Disclaimer
-
-This tool is made **EXCLUSIVELY** for:
-
-- Educational use  
-- Personal lab testing  
-- Authorized VAPT where the client has signed permission  
-
-**Any unauthorized use is illegal and strictly prohibited.**
-
----
-
-## 📌 Notes
-
-- PowerShell must be allowed to run scripts (`ExecutionPolicy Bypass` is used)
-- Python 3.x is required
-- Telegram bot must be active for notifications to work
-
----
-
-## ✅ Status
-
-ELIANA is currently functional for controlled and authorized environments only.
-
+🎥 How to create a Telegram Bot (API Token):
+https://www.youtube.com/watch?v=UQrcOj63S2o
 
 ## ⚙️ Complete Command List
 
