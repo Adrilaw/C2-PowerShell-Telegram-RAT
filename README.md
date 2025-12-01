@@ -40,16 +40,7 @@ Replace `"your_user_id_here"` with your Telegram User ID, and `"your_api_token_h
 
 Run the script `python ELIANA.py`. It will automatically create the necessary `.bat` and `.vbs` files for you.
 
----
-
-### Step 4: Session Interaction
-
-When you run the Python script, it will prompt you to enter a **session ID**. This allows you to interact with different sessions if needed.
-
-* You can press **Enter** to accept the default session ID `99999`, or
-* Enter your own session ID as per your preference or script requirements.
-
-### Step 5: Running the Generated Files
+### Step 4: Running the Generated Files
 
 After the `.bat` and `.vbs` files are created, run them as needed to start the tool’s functionalities.
 
