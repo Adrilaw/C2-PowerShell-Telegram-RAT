@@ -8,44 +8,6 @@ This tool enables security testers with explicit permission to remotely execute 
 
 # ⚙️ Setup Instructions for ELIANA.py Script
 
-Before running the script, you need to update the Telegram credentials inside the script to enable communication with your Telegram Bot.
-
----
-
-### Step 1: Create Your Telegram Bot & Get Your User ID
-
-To set this up, please watch these quick tutorial videos:
-
-* **How to get your Telegram User ID:**
-  🎥 [Watch here](https://www.youtube.com/watch?v=iq8y9niOe4Y)
-
-* **How to create a Telegram Bot and get the API token:**
-  🎥 [Watch here](https://www.youtube.com/watch?v=UQrcOj63S2o)
-
----
-
-### Step 2: Edit the Script with Your Credentials
-
-Once you have your **Telegram User ID** and **Bot API Token**, open the `ELIANA.ps1` script and find the following lines:
-
-```python
-$telegram_id, $api_token = "your_user_id_here", "your_api_token_here"
-```
-
-Replace `"your_user_id_here"` with your Telegram User ID, and `"your_api_token_here"` with your Bot’s API token.
-
----
-
-### Step 3: Run the Script to Generate Required Files
-
-Run the script `python ELIANA.py`. It will automatically create the necessary `.bat` and `.vbs` files for you.
-
-### Step 4: Running the Generated Files
-
-After the `.bat` and `.vbs` files are created, run them as needed to start the tool’s functionalities.
-
-
-
 ## ⚙️ Complete Command List
 
 # Basic System Commands
